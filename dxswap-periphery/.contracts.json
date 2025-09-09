@@ -1,0 +1,33 @@
+{
+  "rinkeby": {
+    "router": "0xC87819FPHwGnEPr2rfjo8a1VYBG6CC8FULbbu291"
+  },
+  "ropsten": {
+    "router": "0x196Ea59B66F85A8B3cF1fa3518ecff738cf50A2E"
+  },
+  "bscTestnet": {
+    "router": "0x4d9883E637708b662f96e3733aEf82BA4Ac0eE30"
+  },
+  "mumbaiTestnet": {
+    "router": "0x25b55Bc6E3Ed43b29FCC121C37FeF02977aA00F7"
+  },
+  "mainnet": {
+    "router": "0xb9960d9bca016e9748be75dd52f02188b9d0829f"
+  },
+  "arbitrumTestnetV3": {
+    "router": "0x825552d3A5893081711C711847bab6b51B1987e3"
+  },
+  "sokol": {
+    "router": "0x882A796B6f1f1679BBa1dd127EcE41Fd4f7aEacc"
+  },
+  "xdai": {
+    "router": "0x1C232F01118CB8B424793ae03F870aa7D0ac7f77"
+  },
+  "matic": {
+    "router": "0x905a969b1b38a9a287683186849ced66b68868eb"
+  },
+  "avax": {
+    "router":"0x4d9883E637708b662f96e3733aEf82BA4Ac0eE30"
+  }
+  
+}

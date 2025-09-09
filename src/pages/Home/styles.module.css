@@ -1,0 +1,618 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0D1228;
+}
+
+
+.home_first {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("./assets/home_desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo {
+    width: 150px;
+}
+
+.home_first__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.home_first__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5%;
+}
+
+.first_body__left {
+    flex: 0.55;
+    padding: 40px 60px;
+}
+
+.first_body__left p {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.35;
+    width: 80%;
+}
+
+.first_body__right {
+    flex: 0.3;
+    padding: 40px;
+}
+
+.first_body__right p {
+    line-height: 1.5;
+    margin-bottom: 50px;
+    color: #D2CC86;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 80%;
+}
+
+.home_second {
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(8,26,48,1) 20%, rgba(3,12,23,1) 100%);
+}
+
+
+.home_second__header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px;
+}
+
+.home_second__header img {
+    height: 50px;
+    margin: 30px;
+}
+
+.home_second__body {
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+
+.home_second__body h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.second_body__absolute {
+    flex: 0.5;
+    height: 70vh;
+    position: absolute;
+    left: 72%;
+    top: -10%;
+    width: 30%;
+    background-image: url("./assets/valuable.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.second_body__content {
+    display: flex;
+}
+
+.body_content__cards {
+    margin-top: 100px;
+    flex: 0.6;
+    flex-wrap: wrap;
+    padding: 50px;
+    display: grid;
+    padding-left: 100px;
+    grid-template-columns: 200px 200px;
+    grid-gap: 50px;
+    z-index:2;
+}
+
+
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,.1);
+    position: relative;
+}
+
+.card_image {
+    position: absolute;
+    top: -10%;
+    width: 60px;
+    height: 60px;
+    left: 10%;
+    border-radius: 15px;
+}
+
+.card_image img {
+    position: absolute;
+    top: -35%;
+    left: -30%
+}
+
+.card_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.card_bottom h5 {
+    font-size: 2rem;
+    margin:0;
+}
+
+.card_bottom p {
+    margin: 0;
+    font-size: 0.6rem;
+    color: #91E798;
+    font-weight: 600;
+    text-shadow: 0.5px 0.25px #91E798;
+}
+
+.second_lightning, .second_lock {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.second_connect__wallet {
+    width: 100%;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.second_lock {
+    padding-right: 50px;
+}
+
+.lightning_left {
+    background-image: url("./assets/lightning.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 60vh;
+    flex: 0.6;
+    height: 100%;
+}
+
+.lightning_right {
+    flex: 0.3;
+    padding: 40px;
+}
+
+.lightning_right h2 {
+    width: 80%;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.lightning_right p {
+    line-height: 1.5;
+    width: 70%;
+    color: #D2CC86;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+}
+
+.lock_right {
+    background-image: url("./assets/lock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 60vh;
+    flex: 0.6;
+    height: 100%;
+}
+
+.lock_left {
+    padding-left: 100px;
+}
+
+.lock_left h3 {
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+.connect_wallet {
+    margin: 50px auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+}
+
+.connect_wallet__left {
+    height: 300px;
+    flex: 0.5;
+}
+
+.connect_wallet__left img {
+    height: 100%;
+    width: 100%;
+}
+
+.connect_wallet__right {
+    flex: 0.35;
+}
+
+.connect_wallet__right h3 {
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.connect_wallet__right button {
+    margin-bottom: 30px;
+}
+
+
+.footer {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: #696A6B;
+    width: 100%;
+}
+
+.footer_mobile {
+    display: none;
+}
+
+.footer_top, .footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_top__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5;
+}
+
+.footer_top__left a {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.footer_top__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.1;
+}
+
+.footer_bottom p {
+    font-size: 0.85rem;
+    color: #5CB75A;
+}
+
+.footer_bottom img {
+    width: 130px;
+}
+
+
+@media screen and (max-width: 1332px){
+    .lock_left {
+        padding-left: 30px;
+    }
+
+    .lock_left h3 {
+        font-size: 2.2rem;
+    }
+
+    .connect_wallet__right h3 {
+        width: 100%;
+    }
+
+    .lightning_right h2 {
+        width: 100%;
+    }
+    .lightning_right p {
+        width: 100%;
+    }
+
+    .footer_top__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 0.15;
+    }
+    .first_body__right p {
+        width: 100%;
+    }
+
+    .first_body__right {
+        flex: 0.35;
+        padding: 20px;
+    }
+
+    .first_body__left p {
+        font-size: 2.3rem;
+        width: 100%;
+    }
+    
+    .first_body__left {
+        flex: 0.55;
+        padding: 20px 40px;
+    }
+
+    .connect_wallet {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 1124px){
+
+    .connect_wallet__left {
+       height: 250px;
+    }
+
+    .connect_wallet {
+        width: 100%;
+    }
+
+    .connect_wallet__right {
+        flex: 0.4;
+    }
+
+    .second_lightning, .second_lock, .second_connect__wallet {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .lock_right {
+        flex: 0.7;
+    }
+
+    .lightning_right {
+        flex: 0.4;
+        padding: 20px;
+    }
+
+    .first_body__right {
+        flex: 0.4;
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 945px){
+
+    .second_lightning, .second_lock, .second_connect__wallet {
+        margin-top: 25px;
+    }
+
+    .connect_wallet__left {
+       height: 250px;
+    }
+
+    .connect_wallet__right {
+        flex: 0.4;
+    }
+
+    .connect_wallet {
+        width: 100%;
+    }
+
+    .lock_left h3 {
+        font-size: 2rem;
+    }
+
+    .lock_right {
+        flex: 0.7;
+    }
+
+    .first_body__right {
+        flex: 0.42;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 845px){
+    .connect_wallet__right {
+        flex: 0.45;
+    }
+
+    .connect_wallet {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 745px){
+    .connect_wallet__left {
+        height: 150px;
+    }
+
+    .connect_wallet__left img {
+        width: 100%;
+    }
+    .connect_wallet, .second_lock, .second_lightning, .home_first__body {
+        flex-direction: column;
+    }
+
+    .lightning_left, .lock_right {
+        width: 80%;
+    }
+
+    .home_second__header {
+        padding: 20px;
+    }
+    
+    .home_second__header img {
+        height: 50px;
+        margin: 10px;
+    }
+
+    .connect_wallet__right {
+        float: left;
+        margin-top: 20px;
+    }
+
+    .lock_left h3 {
+        font-size: 2.3rem;
+    }
+
+    .connect_wallet__right button {
+        background-color:#5CB75A !important;
+    }
+
+    .footer_desktop {
+        display: none;
+    }
+
+    .footer_mobile hr {
+        border: none;
+        height: 1px;
+        background-color: #696A6B;
+        width: 100%;
+    }
+    
+    .footer_mobile {
+        display: block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer_mobile__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .mobile_top__left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile_top__left a{
+        margin: 15px 0px;
+        color: white;
+        font-size: 0.85rem;
+    }
+
+    .footer_mobile__bottom p {
+        font-size: 0.85rem;
+        color: #5CB75A;
+    }
+
+    .mobile_top__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile_top__right img {
+        width: 100px;
+        margin: 15px 0px;
+    }
+
+    .mobile_top__right a{
+        margin: 15px 0px;
+    }
+}
+
+
+@media screen and (max-width: 555px) {
+    .body_content__cards {
+        margin-top: 100px;
+        padding: 25px;
+    }
+
+    .home_first {
+        background-image: url("./assets/home_phone.png");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@media screen and (max-width: 495px){
+    .second_body__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .body_content__cards {
+        margin-top: 100px;
+        padding: 10px;
+        grid-template-columns: 150px 150px;
+        grid-gap: 30px;
+    }
+
+    .lock_right {
+       height: 400px !important;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .home_first__header {
+        padding: 20px;
+    }
+
+    .home_second__body h3 {
+        font-size: 1.2rem;
+    }
+
+    .first_body__right button {
+        background-color:#5CB75A !important;
+    }
+}
+@media screen and (max-width: 355px){
+    .home_second__header {
+        padding: 10px;
+    }
+    
+    .home_second__header img {
+        height: 40px;
+        margin: 10px;
+    }
+    
+}
